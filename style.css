@@ -1,0 +1,121 @@
+/*title*/
+h1 {
+  font-size: 40px;
+  padding: 20px 20px 10px 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1,
+.description {
+  margin: auto;
+  text-align: center;
+}
+
+.description {
+  padding: 0 0 40px 0;
+  font-family: cursive;
+  color: rgb(239 243 243 / 80%);
+  text-shadow: 1px 1px 1px rgb(0 0 0 / 40%);
+}
+
+/*text*/
+p {
+  margin-bottom: 4px;
+  padding-left: 35px;
+  text-align: left;
+}
+
+span {
+  margin-left: 5px;
+  vertical-align: top;
+  font-size: 14px;
+  color: #e4e4e4;
+}
+
+/*background and font*/
+body {
+  color: rgb(239, 243, 243);
+  font-family: Tahoma;
+  font-size: large;
+  background-image: linear-gradient(115deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)),
+    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg
+);
+  background-attachment: fixed;
+}
+
+/*offset*/
+fieldset {
+  border: none;
+  text-align: center;
+}
+
+form {
+  background-color: rgba(27, 27, 50, 0.788);
+  width: 700px;
+  max-width: 1000px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+  border-radius: 2ex;
+
+}
+
+/*factor*/
+input,
+select,
+textarea {
+  border-radius: 1ex;
+  width: 90%;
+  min-height: 30px;
+  margin: 0;
+  padding: 0;
+  font-size: 17px;
+}
+
+input[type="radio"] {
+  min-height: 20px;
+  vertical-align: middle;
+  width: 40px;
+  margin: 5px 10px 10px 40px;
+}
+
+input[type="submit"] {
+  font-size: large;
+  color: white;
+}
+
+.checkbox {
+  width: 40px;
+  margin: 5px 10px 10px 40px;
+  min-height: 20px;
+  vertical-align: middle;
+}
+
+textarea {
+  height: 60px;
+  max-height: 100px;
+  max-width: 90%;
+  padding-top: 1px;
+}
+
+#submit {
+  background-color: rgb(83, 145, 102);
+  display: block;
+  width: 90%;
+  margin: auto;
+  height: 2em;
+  border: none;
+  min-width: 300px;
+}
+
+@media (max-width: 800px) {
+  body {
+    background-image: linear-gradient(115deg,
+        rgba(136, 136, 206, 0.7),
+        rgba(58, 58, 158, 0.8)),
+      url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg
+);
+  }
+}

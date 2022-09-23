@@ -1,0 +1,109 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>First child</title>
+</head>
+
+<body>
+  <h1 id="title">Register section</h1>
+  <p class="description">Thank you for taking the time to help us improve the platform</p>
+  <div class="bg"></div>
+  <form id="survay-form">
+    <fieldset>
+      <label for="name">
+        <p>Name</p>
+        <input id="name" type="text" required placeholder="  Enter your name">
+      </label>
+      <label for="Email">
+        <p>Email</p>
+        <input id="Email" type="email" required placeholder="  Enter your email">
+      </label>
+      <label for="number">
+        <p>Age<span>(optional)</span></p>
+        <input id="number" type="number" required min="13" max="90" placeholder="  Age">
+      </label>
+      <label>
+        <p>Which option best describes your current role?</p>
+        <select id="dropdown">
+          <option value="">(select role)</option>
+          <option value="1">Student</option>
+          <option value="2">Full Time Job</option>
+          <option value="3">Full Time Leaner</option>
+          <option value="4">Prefer Not To Say</option>
+          <option value="5">Other</option>
+        </select>
+      </label>
+    </fieldset>
+    <div>
+      <fieldset>
+        <p>Would you recommend this to a friend?<span>(Check all that apply)</span></p>
+      </fieldset>
+      <label><input type="radio" name="radio" value="Definitely">Definitely</label><br />
+      <label><input type="radio" name="radio" value="Maybe">Maybe</label><br />
+      <label><input type="radio" name="radio" value="Not sure">Not sure</label><br />
+    </div>
+    <fieldset>
+      <p>What is your favorite feature</p>
+      <select id="dropdown">
+        <option value="">
+          <p> (select an option)</p>
+        </option>
+        <option value="1">
+          <p> Challenger</p>
+        </option>
+        <option value="2">
+          <p> Projects</p>
+        </option>
+        <option value="3">
+          <p> Community</p>
+        </option>
+        <option value="4">
+          <p> Open Source</p>
+        </option>
+      </select>
+    </fieldset>
+    <div>
+      <fieldset>
+        <p>What would you like to see improved?</p>
+      </fieldset>
+      <label class="improved"><input type="checkbox" name="Front-end Projects" class="checkbox"
+          value="Front-end Projects" /> Front-end Projects</label><br />
+        <label class="improved"><input type="checkbox" name="Back-end Projects" class="checkbox"
+            value="Back-end Projects"> Back-end Projects</label><br />
+          <label class="improved"><input type="checkbox" name="Data Visualization" class="checkbox"
+              value="Data Visualization"> Data Visualization</label><br />
+            <label class="improved"><input type="checkbox" name="Challenges" class="checkbox" value="Challenges">
+              Challenges</label><br />
+              <label class="improved"><input type="checkbox" name="Open Source Community" class="checkbox"
+                  value="Open Source Community"> Pen Source
+                Community</label><br />
+                <label class="improved"><input type="checkbox" name="Gitter help rooms" class="checkbox"
+                    value="Gitter help rooms"> Gitter help
+                  rooms</label><br />
+                  <label class="improved"><input type="checkbox" name="Videos" class="checkbox" class="checkbox"
+                      value="Videos"> Videos</label><br />
+                    <label class="improved"><input type="checkbox" name="City Meetups" class="checkbox"
+                        value="City Meetups"> City Meetups</label><br />
+                    <label class="improved"><input type="checkbox" name="Wiki" class="checkbox" value="Wiki">
+                      Wiki</label><br />
+                      <label class="improved"><input type="checkbox" class="checkbox" name="Forum" value="Forum">
+                        Forum</label><br />
+                        <label class="improved"><input type="checkbox" name="Additional Courses" class="checkbox"
+                            value="Additional Courses"> Additional
+                          Courses</label><br />
+    </div>
+    <fieldset>
+      <label>
+        <p>Any comments or suggestions?</p>
+        <textarea placeholder="Enter your comment here..." row="3" cols="30"></textarea>
+    </fieldset>
+    </label>
+    <label><input type="submit" name="submit" value="Submit" id="submit"></label>
+  </form>
+</body>
+
+</html>
